@@ -1,0 +1,82 @@
+body {
+  background-color: #00165a;
+}
+h1, h2 {
+  text-align: center;
+}
+
+.level{
+  padding-top: 5%;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  font-family: 'Workbench', sans-serif;
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  font-size: 1rem;
+  font-family: 'Workbench', sans-serif;
+}
+
+.game-over {
+  color: red;
+}
+
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 10%;
+  margin: 1px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 400px;
+  height: 400px;
+}
+
+.transparent {
+  opacity: 60%;
+}
+
+.invisible {
+  visibility: hidden;
+  height: 0px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.grey {
+  background-color: grey;
+}
